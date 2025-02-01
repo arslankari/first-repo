@@ -1,0 +1,165 @@
+/* Save this as styles.css */
+
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    background-color: #121212;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+.header {
+    background: url('assets/hero-background.jpg') no-repeat center center/cover;
+    text-align: center;
+    padding: 120px 0;
+    color: #ffffff;
+}
+
+.header h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.header .highlight {
+    color: #ffd700;
+    font-weight: bold;
+}
+
+/* About Section */
+.about {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #ffd700;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.about-content img {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.details {
+    text-align: left;
+    max-width: 600px;
+}
+
+.details h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.details ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.details li {
+    margin-bottom: 10px;
+    padding-left: 15px;
+    position: relative;
+}
+
+.details li::before {
+    content: '\2022';
+    color: #ffd700;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+button {
+    background-color: #ffd700;
+    color: #121212;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e0b800;
+}
+
+/* Services Section */
+.services {
+    padding: 60px 0;
+    background-color: #1e1e1e;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #ffd700;
+}
+
+.service-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.service-item {
+    background: #2e2e2e;
+    padding: 20px;
+    border-radius: 10px;
+    width: calc(33.333% - 20px);
+    min-width: 250px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+}
+
+.service-item:hover {
+    transform: translateY(-10px);
+}
+
+.service-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #ffd700;
+}
+
+.service-item p {
+    font-size: 1rem;
+    color: #dddddd;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #000;
+    text-align: center;
+    padding: 20px 0;
+    color: #dddddd;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}

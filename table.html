@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+/* Table Styles */
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+thead {
+    background-color: #4CAF50;
+    color: white;
+}
+
+thead th {
+    padding: 15px;
+    text-align: left;
+    font-size: 1.1em;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+tbody th {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tbody th:last-child {
+    text-align: right;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    table {
+        width: 100%;
+    }
+
+    thead th, tbody th {
+        padding: 10px;
+        font-size: 0.9em;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <h1>Tables in HTML</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Role</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th>Arslan karim</th>
+                <th>AI engineer</th>
+                <th>$800000</th>
+            </tr>
+            <tr>
+                <th>Sardar Ali</th>
+                <th>Devops engineer</th>
+                <th>$80000</th>
+            </tr>
+            <tr>
+                <th>Shafaat ullah baig</th>
+                <th>ML engineer</th>
+                <th>$90000</th>
+            </tr>
+            <tr>
+                <th>Ahmed Sikhander</th>
+                <th>Software engineer</th>
+                <th>$320000</th>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
